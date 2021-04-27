@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type=text/css href="contactus.css">
+</head>
+<body>
+
+<div class="navbar">
+	<div class="logo">
+		<img src="logo.jpg" style="width: 100px"></a>
+	</div>
+
+  <a href="homepage.html">Home</a>
+  <a href="aboutus.html">About Us</a>
+  <a class="active" href="contactus.html">Contact Us</a>
+  <a href="books.html">Books</a>
+  <a href="reviews.html">Reviews</a>
+  <a href="basket.html">Basket</a>
+  <a href="signin.html">Sign In</a>
+
+</div>
+</div>
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <br>
+    <p>Complete the form to get in contact with us!</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="banner.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Please enter your forename..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Please enter your surname..">
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="Please enter your email address..">
+        <label for="order number">Order Number</label>
+        <input type="text" id="orderno" placeholder="Please enter your order number..">
+        <label for="reason">Reason</label>
+        <select id="reason" name="reason">
+          <option value="">Please select..</option>
+          <option value="">Product Enquiry</option>
+          <option value="">Delivery and Returns</option>
+          <option value="">Payment Options</option>
+          <option value="">Other</option>
+        </select>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Additional info.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+        <p>Alternatively, email us at help@books.com</p>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p><em>Copyright</em>  <img src="copyright.jpg" width="25" 2height="25"> 2021 All Rights Reserved.</p>
+</div>
+</body>
+</html>

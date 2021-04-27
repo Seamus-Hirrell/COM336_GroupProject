@@ -52,7 +52,6 @@
 	?>
 
 	<div class="container-sm">
-
 		<h1>Your Basket</h1>
 
 		<?php
@@ -84,7 +83,6 @@
 				<a href="checkout.php" class="btn btn-primary btn-block py-3 my-0">Proceed To Checkout</a>
 			</div>
 		</div>
-
 	</div>
 
 	<footer>

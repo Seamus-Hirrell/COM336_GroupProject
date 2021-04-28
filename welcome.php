@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
@@ -10,20 +10,30 @@
 <body>
 
     <div class="navbar">
+	<div class="logo">
+		<img src="logo.jpg" style="width: 100px"></a>
+	</div>
 
- <a href="login.php">Sign In</a>
-  <a href="basket.php">Basket</a>
-  <a href="books.php">Books</a>
-  <a href="reviews.php">Reviews</a>
-  <a class="active"href="contactus.php">Contact Us</a>
-  <a href="aboutus.php">About Us</a>
-  <a href="homepage.php">Home</a>
+ <a href="homepage.html">Home</a>
+  <a href="aboutus.html">About Us</a>
+  <a href="contactus.html">Contact Us</a>
+  <a href="books.html">Books</a>
+  <a href="reviews.html">Reviews</a>
+  <a href="basket.html">Basket</a>
+  <a class="active" href="login.php">Sign In</a>
+
 </div>
-<h1>Welcome to Webiste Name</h1>
-<p>Please select what you would like to do:</p>
+</div>
+<h1>Welcome to Roalds Library</h1>
+<h3>Please select what you would like to do:</h3>
 
-<a href="logout.php">Logout</a><br><br>
-<a href="homepage.php">Browse</a>
+<br><a class="button" href="logout.php">Logout</a>
+
+<br><br><a class="button" href="homepage.html">Browse</a><br>
+
+<footer>
+  <p><em>Copyright</em>  <img src="copyright.jpg" width="25" 2height="25"> 2021 All Rights Reserved.</p>
+</footer>
 
 
 </body>

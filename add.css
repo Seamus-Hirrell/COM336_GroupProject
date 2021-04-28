@@ -1,0 +1,57 @@
+body
+{
+	 background-color: #9a998c;
+}
+
+h3
+{
+	font-size: 30px;
+	text-align: center;
+}
+
+input[type=text]
+{
+width:20%;
+border:2px solid #06F;
+padding:10px;
+font-size:20px;
+cursor:pointer;
+border-radius:5px;
+margin-bottom:15px;
+font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+
+input[type=submit]{
+width:60%;
+background-color:#009;
+color:#fff;
+border:2px solid #06F;
+padding:10px;
+font-size:20px;
+cursor:pointer;
+border-radius:5px;
+margin-bottom:15px;
+font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+
+form
+{
+	display: block;
+	text-align: center;
+}
+
+
+.button
+{
+width:100%;
+background-color:#009;
+color:#fff;
+border:2px solid #06F;
+padding:10px;
+font-size:20px;
+cursor:pointer;
+border-radius:5px;
+margin: 0 auto;
+text-align: center;
+line-height: 35px;
+}

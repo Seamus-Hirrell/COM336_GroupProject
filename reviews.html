@@ -4,6 +4,10 @@
 	<title>Reviews</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	
 	<link rel="stylesheet" type=text/css href="reviews.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -22,13 +26,158 @@
   <a href="basket.html">Basket</a>
   <a href="signin.html">Sign In</a>
 </div>
+ <!-- Content -->
+ 		<section class="row">
+	<div class="grid">
+	<section class="col-2-3">
+ <h2>Want to tell us what you think?</h2>
+ <h5>Feel free to leave your feedback here!</h5>
+ <p>You can communicate with us directly from the site! Fill in the sections outlined to the side step-by-step in order to provide feedback and 
+     we'll do our best to keep track and analyse your feedback on a regular basis. We look forward to hearing 
+     from you!	 </p>
+	 <div class="col-sm-12">
+                   <div class="containerReview">
+  <img src="profileIcon.jpg" alt="Avatar" style="width:90px">
+  <p><span>James Brown.</span> Fantastic Mr Fox.</p>
+  <p>Great read, would definitely recommend.</p>
 </div>
+ <div class="containerReview">
+  <img src="profileIcon.jpg" alt="Avatar" style="width:90px">
+  <p><span>Rebecca Doherty.</span> Matilda.</p>
+  <p>One of my favourite books when I was younger, it was great to pick up again.</p>
+</div>
+ <div class="containerReview">
+  <img src="profileIcon.jpg" alt="Avatar" style="width:90px">
+  <p><span>Sarah Jennings.</span> The BFG.</p>
+  <p>Such a classic, really enjoyed reading this multiple times.</p>
+</div>
+</div>
+			 <br>
+	
+	
+	
+	</section><!--
+	--><form class="col-1-3" action="#" method ="post">
+	<fieldset class ="review-group"> 
+	<label>
+	Name
+	<input type="text" name="name" placeholder="Full name" required>
+	</label>
+	<label>
+	Book
+<select name="reason" required>
+	<option value="1" selected>James and the Giant Peach</option>
+	<option value="2">The Magic Finger</option>
+	<option value="3">The Enormous Crocodile</option>
+	<option value="4">George's Marvellous Medicine</option>
+	<option value="5">Fantastic Mr.Fox</option>
+	<option value="6">Revolting Rhymes</option>
+	<option value="7">The Giraffe and the Pelly and Me</option>
+	<option value="8">Charlie and the Chocolate Factory</option>
+	<option value="9">The BFG</option>
+	<option value="10">Matilda</option>
+	<option value="11">The Witches</option>
+	<option value="12">Esio Trot</option>
+	</select>	</label>
+	<label>
+	Rating
+	<select name="reason" required>
+	<option value="1" selected>1 Star</option>
+	<option value="2">2 Star</option>
+	<option value="3">3 Star</option>
+	<option value="4">4 Star</option>
+	<option value="5">5 Star</option>
+	</select>
+	</label>
+	<input class="btn btn-dark" type="submit" name="submit" value="Submit">
+
+	<label>
+ <span class="heading">Site Rating</span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<p>4.3 average based on 254 reviews.</p>
+<hr style="border:2px solid #f1f1f1">
+	<div class="row">
+  <div class="side">
+    <div>5 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-5"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>150</div>
+  </div>
+  <div class="side">
+    <div>4 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-4"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>63</div>
+  </div>
+  <div class="side">
+    <div>3 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-3"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>15</div>
+  </div>
+  <div class="side">
+    <div>2 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-2"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>6</div>
+  </div>
+  <div class="side">
+    <div>1 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-1"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>20</div>
+  </div>
+</div>
+	</label>
+	</fieldset>
+	</form>
+	</div>
+	</section>
+<br>
+<br>
+<br>
+<br>
  
 
 
-<footer>
- <p><em>Copyright</em>  <img src="copyright.jpg" width="25" 2height="25"> 2021 All Rights Reserved.</p>
-</footer>
+</div>
 
+<!-- Footer -->
+    <footer class="footer" id="#footer">
+	       <div style="text-align:center">
+            <p style="color:white">Copyright © 2021 All Rights Reserved</p>
+        </div>     
+  </footer>
+<br>
+</br>
 </body>
 </html>

@@ -57,3 +57,186 @@ footer {
   text-align: center;
   background-color: #8b7968;
 }
+
+.container,
+.grid {
+	margin: 0 auto;
+	width: 960px;
+}
+.container {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.col-1-3{
+	width: 33.33%;
+}
+.col-2-3{
+	width: 66.66%;
+}
+.col-1-3,
+.col-2-3{
+	display: inline-block;
+	vertical-align: top;
+}
+.grid,
+.col-1-3,
+.col-2-3 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+
+/* REVIEW STYLES */
+
+* {
+  box-sizing: border-box;
+}
+
+
+.heading {
+  font-size: 25px;
+  margin-right: 25px;
+}
+
+.fa {
+  font-size: 25px;
+}
+
+.checked {
+  color: orange;
+}
+
+/* Three column layout */
+.side {
+  float: left;
+  width: 15%;
+  margin-top: 10px;
+}
+
+.middle {
+  float: left;
+  width: 70%;
+  margin-top: 10px;
+}
+
+/* Place text to the right */
+.right {
+  text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The bar container */
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+
+/* Individual bars */
+.bar-5 {width: 60%; height: 18px; background-color: #4CAF50;}
+.bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 500px) {
+  .side, .middle {
+    width: 100%;
+  }
+  /* Hide the right column on small screens */
+  .right {
+    display: none;
+  }
+}
+.containerReview {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0
+}
+
+.containerReview::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.containerReview img {
+  float: left;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.containerReview span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+  .containerReview {
+      text-align: center;
+  }
+  .containerReview img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
+
+.why-review {
+ list-style: square;
+ margin: 0 0 22px 30px;
+}
+form {
+ margin-bottom: 22px;
+}
+input,
+select,
+textarea {
+ font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.register-group label {
+ color: #648880;
+ cursor: pointer;
+ font-weight: 400;
+}
+.review-group input,
+.review-group select,
+.review-group textarea {
+ border: 1px solid #c6c9cc;
+ border-radius: 5px;
+ color: #888;
+ display: block;
+ margin: 5px 0 27px 0;
+ padding: 5px 8px;
+}
+.review-group input,
+.contact-group textarea {
+ width: 100%;
+}
+.review-group select {
+ height: 34px;
+ width: 180px;
+}
+.review-group textarea {
+ height: 78px;
+}
+
+/*FOOTER */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
